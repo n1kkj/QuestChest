@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>QuestBook</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style/style2.css">
+    <script src="https://kit.fontawesome.com/af54512cd0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/style2.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../img/chest.svg" type="image/svg">
+</head>
+
+<body>
+    <header>
+        <div class="cont1">
+            <a class="headline" href="index.html">
+                <img class="titleimg" src="../img/chest.svg" alt="">
+                QuestChest
+            </a>
+            <div class="ss">
+                <a class="aforh" href="index2.html">Забронировать квест</a>
+                <a class="aforh" href="index4.html">Организовать праздник</a>
+                <a class="aforh" href="index3.html">Зарегистрироваться</a>
+            </div>
+        </div>
+    </header>
+    <main class="main2">
+        <div class="cont4">
+            <form action="post.php">
+                <div class="biggblock">
+                    <div class="block">
+                        <div class="nad">Квест</div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-1" type="radio" name="radio" value="1" checked>
+                            <label for="radio-1">Побег из тюрьмы</label>
+                        </div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-2" type="radio" name="radio" value="2">
+                            <label for="radio-2">Записки фотографа</label>
+                        </div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-3" type="radio" name="radio" value="3">
+                            <label for="radio-3">Сокровище пиратов</label>
+                        </div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-4" type="radio" name="radio" value="4">
+                            <label for="radio-4">Филосовский камень</label>
+                        </div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-5" type="radio" name="radio" value="5">
+                            <label for="radio-5">Ограбление</label>
+                        </div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-6" type="radio" name="radio" value="6">
+                            <label for="radio-6">Тайные агенты</label>
+                        </div>
+                        <div class="form_radio">
+                            <input class="regqq" id="radio-7" type="radio" name="radio" value="7">
+                            <label for="radio-7">Космо-паника</label>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="nad">Ваш аккаунт</div>
+                        <input type="email" class="mailch" placeholder="Электронная почта">
+                        <input type="password" placeholder="Пароль" class="mailch">
+                        <a href="index3.html" class="aforreg">Нет аккаунта?</a>
+                    </div>
+                    <div class="block">
+                        <div class="nad">Кол-во человек</div>
+                        <div class="fff">
+                            <div class="colvochel">1</div>
+                            <div class="colvochel">2-3</div>
+                            <div class="colvochel">4-6</div>
+                            <div class="colvochel">7-10</div>
+                        </div>
+                        <input class="ran" type="range" step=33.3 value="0">
+                    </div>
+                </div>
+                <div class="biggblock">
+                    <div class="block">
+                        <div class="nad">Дата</div>
+                        <input type="text" placeholder="День/месяц" class="rere">
+                    </div>
+                    <div class="block">
+                        <input type="submit" value="Забронировать" class="rtrt">
+                    </div>
+                    <div class="block">
+                        <div class="nadv1">Время</div>
+                        <div class="coco">
+                            <div class="form1">
+                                <input class="regqq2" id="r1" type="radio" name="radio2" value="1" checked>
+                                <label class="regqq3" for="r1">12:15</label>
+                            </div>
+                            <div class="form1">
+                                <input class="regqq2" id="r2" type="radio" name="radio2" value="2">
+                                <label class="regqq3" for="r2">14:30</label>
+                            </div>
+                            <div class="form1">
+                                <input class="regqq2" id="r3" type="radio" name="radio2" value="3">
+                                <label class="regqq3" for="r3">16:45</label>
+                            </div>
+                            <div class="form1">
+                                <input class="regqq2" id="r4" type="radio" name="radio2" value="4">
+                                <label class="regqq3" for="r4">18:50</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body></html>
