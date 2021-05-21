@@ -94,38 +94,38 @@ body {
 }
 
 .qn1 {
-    background-image: url(../img/q1);
+    background-image: url(q1);
     background-size: contain;
 }
 
 .qn2 {
-    background-image: url(../img/q2);
+    background-image: url(q2);
     background-size: contain;
 }
 
 .qn3 {
-    background-image: url(../img/q3);
+    background-image: url(q3);
     background-size: contain;
 }
 
 .qn4 {
-    background-image: url(../img/q4);
+    background-image: url(q4);
     background-size: contain;
 }
 
 .qn5 {
-    background-image: url(../img/q5);
+    background-image: url(q5);
     background-size: contain;
 }
 
 .qn6 {
-    background-image: url(../img/q6.jpg);
+    background-image: url(q6.jpg);
     background-size: contain;
 }
 
 .qn7 {
     left: 130px;
-    background-image: url(../img/q7);
+    background-image: url(q7);
     background-size: contain;
 }
 
@@ -418,7 +418,7 @@ label {
     justify-content: center;
 }
 
-img {
+.img22 {
     margin: 0 60px 20px 0;
     width: 400px;
 }
