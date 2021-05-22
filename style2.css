@@ -145,6 +145,7 @@ body {
 .quename {
     font-size: 30px;
     padding-bottom: 20px;
+    font-family: 'Kelly Slab', cursive;
 }
 
 .quedesk {
@@ -284,6 +285,7 @@ body {
 .nadv1 {
     font-size: 30px;
     padding-bottom: 20px;
+    font-family: 'Kelly Slab', cursive;
 }
 
 .regqq {
@@ -314,8 +316,6 @@ label {
 
 .block45 {
     width: 100%;
-    display: flex;
-    flex-direction: column;
     margin: 60px;
 }
 
@@ -375,7 +375,8 @@ label {
 .regqq3 {
     padding: 10px;
     border: 1px solid black;
-    margin: 0;
+    margin: 3px;
+    border-radius: 8px;
 }
 
 .coco {
@@ -406,11 +407,12 @@ label {
 }
 
 .blocko4 {
-    width: 70%;
-    padding: 30px;
     margin: 100px;
+    padding: 40px;
+    width: 70%;
     background-color: white;
-    border-radius: 15px; 
+    border-radius: 15px;
+    display: flex;
 }
 
 .cont6 {
@@ -419,6 +421,22 @@ label {
 }
 
 .img22 {
-    margin: 0 60px 20px 0;
-    width: 400px;
+    width: 80%;
+    border-radius: 10px;
+    transition: .5s;
+    margin: 10px;
+}
+
+.img22:hover {
+    box-shadow: 0 0 50px 10px deepskyblue;
+}
+
+.blocko9 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.aera {
+    resize: none;
 }
