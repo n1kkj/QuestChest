@@ -444,7 +444,7 @@ label {
 .side {
     position:fixed;
     font-size: 50px;
-    top: 400px;
+    top: 350px;
     color: black;
     text-decoration: none;
     visibility: hidden;
@@ -532,7 +532,7 @@ label {
         padding-bottom: 0;
         margin-bottom: 30px;
     } 
-    .main2.g5, .g5 {
+    .main2.g5 , .g5 {
         height: 1000px;
     }
 }
