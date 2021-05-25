@@ -442,7 +442,7 @@ label {
 }
 
 .side {
-    position:fixed;
+    position: fixed;
     font-size: 50px;
     top: 350px;
     color: black;
@@ -450,89 +450,125 @@ label {
     visibility: hidden;
 }
 
-.side:active , .side:visited {
+.side:active,
+.side:visited {
     color: black;
 }
+
 .side.left {
     transform: rotate(-90deg);
     left: 10px;
 }
+
 .side.right {
     transform: rotate(90deg);
     right: 10px;
 }
+
 @media (max-width:450px) {
     header {
         display: none;
     }
+
     .questn {
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
+
     .nadpis {
         margin-left: 40px;
     }
+
     .qn7 {
         position: static;
         margin: 30px;
     }
+
     .questn.bb {
         padding: 0;
     }
+
     .side {
         visibility: visible;
     }
+
     .biggblock {
         display: flex;
         flex-direction: column;
         margin: 0;
     }
+
     .cont4 {
         padding: 10px;
     }
+
     .block {
         width: auto;
     }
+
     .rere {
         width: auto;
         position: static;
         height: 25px;
     }
+
     .rtrt {
         width: auto;
     }
+
     .nadv1 {
         position: static;
     }
+
     .coco {
         display: flex;
         flex-direction: column;
     }
+
     .form1 {
         margin-bottom: 30px;
     }
+
     .blocko9.w {
         display: none;
     }
+
     .blocko4 {
         padding: 10px;
     }
+
     .blocko9 {
         width: auto;
     }
+
     .cont5 {
         width: 70%;
         padding: 10px;
         margin: 0;
     }
+
     .block45 {
         margin: 0;
     }
+
     .nad.i {
         padding-bottom: 0;
         margin-bottom: 30px;
-    } 
-    .main2.g5 , .g5 {
+    }
+
+    .main2.g5,
+    .g5 {
         height: 1000px;
+    }
+
+    .textfor:onclick .quedesk {
+        opacity: 1;
+    }
+
+    .textfor:onclick {
+        top: 0;
+        height: 274px;
+        width: 280px;
+        border-radius: 10px;
     }
 }
